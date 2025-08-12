@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RA2 Filmes — Portfólio</title>
+  <meta name="description" content="Produtora audiovisual. Filmes e séries com identidade, precisão e coração.">
+  <link rel="icon" href="./assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <img src="./assets/img/logo.svg" alt="RA2 Filmes" width="36" height="36">
+      <span>RA2 Filmes</span>
+    </a>
+    <nav class="nav">
+      <a href="#trabalhos">Trabalhos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato" class="btn">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <h1>Filmes e séries com identidade,<br> precisão e coração.</h1>
+      <p>Portfólio oficial da RA2 Filmes. Seleção de obras, prêmios e contatos.</p>
+      <div class="cta">
+        <a class="btn primary" href="#trabalhos">Ver trabalhos</a>
+        <a class="btn ghost" href="#contato">Falar com a gente</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="trabalhos" class="grid">
+    <div class="wrap">
+      <h2>Trabalhos em destaque</h2>
+      <div class="cards">
+        <!-- Duplique estes <article> para adicionar mais obras -->
+        <article class="card">
+          <div class="thumb placeholder" aria-hidden="true"></div>
+          <div class="body">
+            <h3>Longa-metragem — Título do Filme</h3>
+            <p>Ficção | 2025 | 100 min</p>
+            <div class="links">
+              <a href="#" target="_blank" rel="noopener">IMDb</a>
+              <a href="#" target="_blank" rel="noopener">Trailer</a>
+              <a href="#" target="_blank" rel="noopener">Press kit</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb placeholder" aria-hidden="true"></div>
+          <div class="body">
+            <h3>Série — Título da Série (T1)</h3>
+            <p>Documentário | 8×26' | 2024</p>
+            <div class="links">
+              <a href="#" target="_blank" rel="noopener">IMDb</a>
+              <a href="#" target="_blank" rel="noopener">Teaser</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb placeholder" aria-hidden="true"></div>
+          <div class="body">
+            <h3>Curta — Título do Curta</h3>
+            <p>Animação | 2023 | 12 min</p>
+            <div class="links">
+              <a href="#" target="_blank" rel="noopener">IMDb</a>
+              <a href="#" target="_blank" rel="noopener">Assista</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="hint">Edite este arquivo e duplique os &lt;article class="card"&gt; para adicionar mais obras.</p>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="wrap">
+      <h2>Sobre</h2>
+      <p>A RA2 Filmes é uma produtora audiovisual focada em narrativas originais para cinema e TV/streaming. Atuamos do desenvolvimento à finalização, com parceiros no Brasil e no exterior.</p>
+      <ul class="bullets">
+        <li>Desenvolvimento e produção de longas e séries</li>
+        <li>Coproduções e prestação de serviços</li>
+        <li>Editais, fundos e incentivos</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <div class="wrap">
+      <h2>Contato</h2>
+      <p>Fale com a gente:</p>
+      <p class="big"><a href="mailto:contato@ra2filmes.com.br">contato@ra2filmes.com.br</a></p>
+      <div class="social">
+        <a href="#" aria-label="IMDb">IMDb</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <small>© <span id="year"></span> RA2 Filmes — Todos os direitos reservados.</small>
+  </div>
+</footer>
+
+<script src="./assets/js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
