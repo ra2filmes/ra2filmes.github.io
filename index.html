@@ -1,21 +1,28 @@
-<!doctype html> 
+<!doctype html>
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>RA2 Filmes — Portfólio</title>
   <meta name="description" content="Produtora audiovisual. Filmes e séries com identidade, precisão e coração.">
-  <link rel="icon" href="./assets/img/logo.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://www.ra2filmes.com.br/">
+
+  <!-- Ícone / Favicon -->
+  <link rel="icon" href="/logo.svg" type="image/svg+xml">
+
+  <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <!-- CSS (arquivo na raiz do repo) -->
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="#top">
-      <img src="./assets/img/logo.svg" alt="RA2 Filmes" width="36" height="36">
+      <img src="/logo.svg" alt="RA2 Filmes" width="36" height="36">
       <span>RA2 Filmes</span>
     </a>
     <nav class="nav">
@@ -116,7 +123,11 @@
   </div>
 </footer>
 
-<script src="./assets/js/main.js"></script>
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<!-- JS (arquivo na raiz do repo) -->
+<script src="/main.js"></script>
+<script>
+  // Garantia do ano no rodapé (funciona mesmo sem o main.js)
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
